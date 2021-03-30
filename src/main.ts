@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: 19080088
+ * @Date: 2021-03-30 11:13:39
+ * @LastEditors: 19080088
+ * @LastEditTime: 2021-03-30 18:08:04
+ */
 import Vue from 'vue';
 // import type store from '@/store';
 
@@ -9,6 +16,7 @@ import App from '@/App.vue';
 import { testTypescript } from './currency';
 import './asstes/scss/index.scss';
 import '@shinhotech/sh-ui/lib/theme-chalk/index.css';
+import (/* WebpackPreLoad: true, webpackChunkName: "soureMap_test" */ './soureMap_test');
 // const VuexStoreRegister = require('./plugins/vuexLazy');
 // Vue.use(VuexStoreRegister);
 testTypescript();
